@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    color: rgb(204, 20, 20);
+    position: fixed;
+    z-index: 1;
+}
+
+.navegação{
+    font-family: 'Roboto', sans-serif;
+    background-color: #313233;
+    color: #fff;
+    border-top: 5px solid rgb(204, 20, 20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin: 100px 0;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 40px 0 40px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background: rgb(204, 20, 20);
+    padding: 15.3px;
+}
+
+nav ul a:visited {
+    color: #afb1b1;
+}
+
+#titulo {
+    font-size: 35px;
+    margin: 20px 0 5px 50px;
+}
+
+#subtitulo {
+    font-size: 20px;
+    margin: 0 0 10px 50px;
+    color: #313233;
+}
+
+#introdução img:hover {
+    transform: scale(1.1);
+}
+
+#introdução img {
+    transition: 1s;
+    position: relative;
+    width: 500px;
+    top: 180px;
+    left: 380px;
+}
+
+#introdução h1 {
+    color: rgb(204, 20, 20);
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+
+.barreiro p {
+    color: #313233;
+    position: absolute;
+    top: 590px;
+    left: 50px;
+}
+
+.barreiro span {
+    color: #313233;
+    position: absolute;
+    top: 680px;
+    left: 50px;
+}
+
+.curiosidade {
+    position: absolute;
+    top: 790px;
+    left: 50px;
+}
+
+.curiosidade h1 {
+    color: rgb(204, 20, 20);
+    margin-bottom: 25px;
+}
+
+.curiosidade img {
+    float: left;
+    margin: 0 25px 8px 15px;
+    width: 350px;
+    transition: 1s;
+    border: 3px solid rgb(204, 20, 20);
+}
+
+.curiosidade img:hover {
+    transform: scale(1.1);
+}
+
+.curiosidade p {
+    text-align: left;
+    justify-content: center;
+}
+
+.lugar {
+    position: absolute;
+    top: 1190px;
+    left: 50px;
+}
+
+.lugar h1 {
+    color: rgb(204, 20, 20);
+    margin-bottom: 25px;
+}
+
+.lugar img {
+    float: left;
+    margin: 0 25px 8px 15px;
+    width: 350px;
+    height: 250px;
+    transition: 1s;
+    border: 3px solid rgb(204, 20, 20);
+    filter: grayscale(100%);
+}
+
+.lugar img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+.lugar2 {
+    position: absolute;
+    top: 1550px;
+    left: 50px;
+}
+
+.lugar2 img {
+    float: left;
+    margin: 0 25px 8px 15px;
+    width: 350px;
+    height: 250px;
+    transition: 1s;
+    border: 3px solid rgb(204, 20, 20);
+    filter: grayscale(100%);
+}
+
+.lugar2 img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+.lugar2 h1 {
+    text-align: center;
+    position: absolute;
+    left: 390px;
+}
+
+.lugar2 p {
+    margin: 40px 0;
+}
+
+.lugar3 {
+    position: absolute;
+    top: 1850px;
+    left: 50px;
+}
+
+.lugar3 img {
+    float: left;
+    margin: 0 25px 8px 15px;
+    width: 350px;
+    height: 250px;
+    transition: 1s;
+    border: 3px solid rgb(204, 20, 20);
+    filter: grayscale(100%);
+}
+
+.lugar3 img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 2200px;
+    background: #313233;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    margin: 20px 0;
+    border-top: 5px solid rgb(204, 20, 20);
+}
